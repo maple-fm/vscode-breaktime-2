@@ -30,8 +30,9 @@ export function activate(context: vscode.ExtensionContext) {
 			modal: true,
 		});
 
-
 		timer(0, 10); // 第一引数：分、第二引数：秒
+
+		
 
 	});
 
@@ -99,9 +100,10 @@ export function activate(context: vscode.ExtensionContext) {
 		<body>
 			<h1>title</h1>
 	
+			<!-- 
 			<div class=""><input type="radio" name="analysis" value="bar" checked>縦棒グラフ</div>
 			<div class=""><input type="radio" name="analysis" value="Line">折れ線グラフ</div>
-			<div class=""><input type="radio" name="analysis" value="3">散布図</div>
+			 -->
 	
 			<div>
 				<canvas id="graph" width="100%"></canvas>
